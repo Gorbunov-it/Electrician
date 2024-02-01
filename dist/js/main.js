@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{console.log("openCloseModal.js");const o=document.querySelector(".modal-callback ");console.log("modalCallback: ",o);const l=document.querySelector(".callback-btn");console.log("callbackBtn: ",l),l.addEventListener("click",(o=>{console.log(o.target)}))})(),console.log("index.js load Success")})();

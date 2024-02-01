@@ -1,0 +1,26 @@
+{
+  "name": "electrician",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack serve --mode=development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gorbunov-it/Electrician.git"
+  },
+  "author": "Ivan Gorbunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gorbunov-it/Electrician/issues"
+  },
+  "homepage": "https://github.com/Gorbunov-it/Electrician#readme",
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
