@@ -1,3 +1,3 @@
-import openCloseModal from "./modules/openCloseModal";
+import menu from "./modules/topMenu";
 
-openCloseModal();
+menu();
