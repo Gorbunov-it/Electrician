@@ -1344,6 +1344,10 @@ video#video_background {
 	-o-transform: scale(1.2);
 }
 
+/* .services-elements {
+	overflow: hidden;
+} */
+
 .services-elements .title-h5 {
 	overflow: hidden;
 	position: relative;
@@ -1386,9 +1390,9 @@ video#video_background {
 	overflow: hidden;
 }
 
-.services-elements img {
+/* .services-elements img {
 	width: 100%;
-}
+} */
 
 .services-elements>.row>hr:nth-of-type(2n) {
 	clear: both;
