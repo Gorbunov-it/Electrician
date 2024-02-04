@@ -1411,6 +1411,7 @@ video#video_background {
 	padding: 0 2px;
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.6);
+	transition: all .3s ease-in-out;
 }
 
 @media only screen and (min-width: 992px) {
