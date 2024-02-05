@@ -53,8 +53,6 @@ const sendForm = ({ formId, formName, someElem = [] }) => {
     getstatusBlock(loadText);
 
     formData.forEach((val, key) => {
-      console.log("key: ", key);
-      console.log("val: ", val);
       formBody[key] = val;
     });
 
@@ -68,12 +66,10 @@ const sendForm = ({ formId, formName, someElem = [] }) => {
     });
 
     const formElements = form.querySelectorAll("input");
-
     if (validate(formElements)) {
       sendData(formBody)
         .then((data) => {
           getstatusBlock(successText);
-          console.log("submit");
           formElements.forEach((input) => {
             input.value = "";
           });
