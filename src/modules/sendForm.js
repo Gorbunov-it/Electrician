@@ -71,7 +71,9 @@ const sendForm = ({ formId, formName, someElem = [] }) => {
         .then((data) => {
           getstatusBlock(successText);
           formElements.forEach((input) => {
-            input.value = "";
+            if (input.classList.contains("form-control")) {
+              input.value = "";
+            }
           });
           setTimeout(() => {
             getBlock().remove();
